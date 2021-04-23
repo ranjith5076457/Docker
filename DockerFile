@@ -1,0 +1,7 @@
+FROM ubuntu
+
+MAINTAINER ranjith <ranjith5076457@gmail.com>
+
+RUN apt-get update
+
+CMD ["echo", "Hi Team, My First demo on Azure Pipelines"]  
