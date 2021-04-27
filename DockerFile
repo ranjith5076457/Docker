@@ -4,4 +4,6 @@ MAINTAINER ranjith <ranjith5076457@gmail.com>
 
 RUN apt-get update
 
+EXPOSE 80 8080 3000
+
 CMD ["echo", "Hi Team, My First demo on Azure Pipelines"]  
